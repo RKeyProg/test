@@ -282,6 +282,10 @@ section {
 }
 
 @media screen and (max-width: 768px) {
+  .hero__title {
+    font-size: 30px;
+  }
+
   .hero__content .container {
     flex-direction: column-reverse;
   }
@@ -297,6 +301,7 @@ section {
 
   .hero__subtitle {
     max-width: 100%;
+    font-size: 16px;
   }
   
   .menu__list {
@@ -318,17 +323,25 @@ section {
   .header__hamburger {
     display: block;
   }
+
+  .hero__btn {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 480px) {
   .hero__image {
-    width: 80%;
-    max-width: 100%;
+    width: 45%;
+    max-width: 45%;
     margin-bottom: 25px;
   }
 
   .hero__title {
-    font-size: 34px;
+    font-size: 20px;
+  }
+
+  .hero__subtitle {
+    font-size: 14px;
   }
 
   .menu__item {
@@ -340,7 +353,12 @@ section {
     font-size: 15px;
   }
 
+
   .header__menu {
     margin-right: 6vw;
   }  
+  
+  .hero__btn {
+    font-size: 12px;
+  }
 }
